@@ -1,0 +1,60 @@
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs and debug files
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Uploads / temporary files
+# =========================
+uploads/
+temp/
+tmp/
+
+# =========================
+# Build / output folders
+# =========================
+dist/
+build/
+coverage/
+.nyc_output/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Miscellaneous
+# =========================
+*.pid
+*.seed
+*.bak
+*.old
+*.swp
+
+# =========================
+# Vercel (auto handled)
+# =========================
+.vercel/
